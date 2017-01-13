@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cf006aff"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.user.virtual_atm.SAFETY_CONCERNS">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prevent others from seeing your PIN entry by using your body or hand to shield the ATM keypad."
+                android:textColor="#fff"
+                android:textSize="24dp"/>
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="400dp"
+                android:src="@drawable/pre"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Memorise your PIN. Do not write it down anywhere,and certainly never on the card itself"
+                android:textColor="#fff"
+                android:textSize="24dp"/>
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="400dp"
+                android:src="@drawable/pre2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do not take help from strangers for using the ATM card or handling your cash"
+                android:textColor="#fff"
+                android:textSize="24dp"/>
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="400dp"
+                android:src="@drawable/pre3"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="If you take transaction slip, shred it immediately after use"
+                android:textColor="#fff"
+                android:textSize="24dp"/>
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="400dp"
+                android:src="@drawable/pre3"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
